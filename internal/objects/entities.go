@@ -2,7 +2,7 @@ package objects
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/smail1111/mario/internal/utils"
+	"github.com/smail1111/not-mario/internal/utils"
 )
 
 type Entity struct {

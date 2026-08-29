@@ -19,7 +19,7 @@ Download and run `not_mario.exe`
 If you do not have Go installed, install Go by running `curl -sS https://webi.sh/golang | sh` in your terminal on Linux/WSL/macOS,
 or follow the [official Golang installation instructions](https://go.dev/doc/install)
 
-Then run `go run github.com/smail1111/not-mario@latest`
+Then run `go run github.com/smail1111/not-mario/program@latest`
 
 # Credits
 

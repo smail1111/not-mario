@@ -7,8 +7,8 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/smail1111/mario/internal/objects"
-	"github.com/smail1111/mario/internal/utils"
+	"github.com/smail1111/not-mario/internal/objects"
+	"github.com/smail1111/not-mario/internal/utils"
 )
 
 const scale = 2.0

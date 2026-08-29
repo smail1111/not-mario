@@ -8,7 +8,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/audio"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/smail1111/mario/internal/utils"
+	"github.com/smail1111/not-mario/internal/utils"
 )
 
 type Game struct {

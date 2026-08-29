@@ -1,6 +1,6 @@
 package objects
 
-import "github.com/smail1111/mario/internal/utils"
+import "github.com/smail1111/not-mario/internal/utils"
 
 type Block struct {
 	Entity

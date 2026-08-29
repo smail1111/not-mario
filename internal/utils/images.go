@@ -8,7 +8,7 @@ import (
 	_ "image/png"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/smail1111/mario/assets"
+	"github.com/smail1111/not-mario/assets"
 )
 
 var Assets = assets.Assets

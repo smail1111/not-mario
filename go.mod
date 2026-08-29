@@ -1,4 +1,4 @@
-module github.com/smail1111/mario
+module github.com/smail1111/not-mario
 
 go 1.25.0
 
