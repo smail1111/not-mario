@@ -300,7 +300,7 @@ func (g *Game) Update() error {
 	for _, flag := range g.Flags {
 		if g.Mario.Overlaps(flag.FRect) {
 			if g.Music.IsPlaying() {
-				g.Mario.Pos.Y = min(g.Mario.Pos.Y, flag.Bottom()+minMarioFlagPosition-g.Mario.Height)
+				g.Mario.Pos.Y = min(max(g.Mario.Pos.Y, flag.Top()-g.Mario.Height/2), flag.Bottom()+minMarioFlagPosition-g.Mario.Height)
 				g.Mario.Velocity = FVector{}
 				g.Mario.SetAnimation("climb")
 				g.Music.Close()
